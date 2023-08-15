@@ -58,7 +58,12 @@ $max-width: 600px;
       right: 2.25em;
     }
   }
-
+  
+:root {
+  --font-up-6: 28px;  /* Updated font size for larger screens */
+  --font-up-4: 24px;  /* Updated font size for tablet screens */
+  --line-height-medium: 1.5;
+}
   h1 {
     font-size: var(--font-up-6);
     line-height: $line-height-medium;
